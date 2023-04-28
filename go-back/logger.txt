@@ -1,0 +1,56 @@
+2023/04/26 21:19:00 [DEBUG] Successfully Initiated the Loger
+2023/04/26 21:19:00 [DEBUG] Successfully Initiated the Data Base
+2023/04/26 21:19:00 [DEBUG] Successfully created the tables
+2023/04/27 17:45:44 [DEBUG] Successfully Initiated the Loger
+2023/04/27 17:45:44 [DEBUG] Successfully Initiated the Data Base
+2023/04/27 17:45:44 [DEBUG] Successfully created the tables
+2023/04/27 17:45:44 [DEBUG] Successfully created the tables
+2023/04/27 17:46:14 [DEBUG] Successfully Initiated the Loger
+2023/04/27 17:46:14 [DEBUG] Successfully Initiated the Data Base
+2023/04/27 17:46:14 [DEBUG] Successfully created the tables
+2023/04/27 17:46:14 [DEBUG] Successfully created the tables
+2023/04/27 17:46:37 [DEBUG] Successfully Initiated the Loger
+2023/04/27 17:46:37 [DEBUG] Successfully Initiated the Data Base
+2023/04/27 17:46:37 [DEBUG] Successfully created the tables
+2023/04/27 17:46:37 [DEBUG] Successfully created the tables
+2023/04/27 17:50:51 [DEBUG] Successfully Initiated the Loger
+2023/04/27 17:50:51 [DEBUG] Successfully Initiated the Data Base
+2023/04/27 17:50:51 [DEBUG] Successfully created the tables
+2023/04/27 17:50:51 [DEBUG] Successfully created the tables
+2023/04/27 17:51:00 [DEBUG] Successfully Initiated the Loger
+2023/04/27 17:51:00 [DEBUG] Successfully Initiated the Data Base
+2023/04/27 17:51:00 [DEBUG] Successfully created the tables
+2023/04/27 17:51:00 [DEBUG] Successfully created the tables
+2023/04/27 17:52:37 [DEBUG] Successfully Initiated the Loger
+2023/04/27 17:52:37 [DEBUG] Successfully Initiated the Data Base
+2023/04/27 17:52:37 [DEBUG] Successfully created the tables
+2023/04/27 17:52:37 [DEBUG] Successfully created the tables
+2023/04/27 17:53:09 [DEBUG] Successfully Initiated the Loger
+2023/04/27 17:53:09 [DEBUG] Successfully Initiated the Data Base
+2023/04/27 17:53:09 open ./migaration/db.sql: no such file or directory
+2023/04/27 17:53:09 [DEBUG] Successfully created the tables
+2023/04/27 17:53:09 open ./migaration/db.sql: no such file or directory
+2023/04/27 17:53:09 [DEBUG] Successfully created the tables
+2023/04/27 17:53:40 [DEBUG] Successfully Initiated the Loger
+2023/04/27 17:53:40 [DEBUG] Successfully Initiated the Data Base
+2023/04/27 17:53:40 near "EXIST": syntax error
+2023/04/27 17:53:40 [DEBUG] Successfully created the tables
+2023/04/27 17:53:40 near "EXIST": syntax error
+2023/04/27 17:53:40 [DEBUG] Successfully created the tables
+2023/04/27 17:53:56 [DEBUG] Successfully Initiated the Loger
+2023/04/27 17:53:56 [DEBUG] Successfully Initiated the Data Base
+2023/04/27 17:53:56 [DEBUG] Successfully created the tables
+2023/04/27 17:53:56 table user already exists
+2023/04/27 17:53:56 [DEBUG] Successfully created the tables
+2023/04/28 15:38:49 [DEBUG] Successfully Initiated the Loger
+2023/04/28 15:38:49 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 15:38:49 table user already exists
+2023/04/28 15:38:49 [DEBUG] Successfully created the tables
+2023/04/28 15:38:49 table user already exists
+2023/04/28 15:38:49 [DEBUG] Successfully created the tables
+2023/04/28 16:00:16 [DEBUG] Successfully Initiated the Loger
+2023/04/28 16:00:16 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 16:00:16 table user already exists
+2023/04/28 16:00:16 [DEBUG] Successfully created the tables
+2023/04/28 16:00:16 table user already exists
+2023/04/28 16:00:16 [DEBUG] Successfully created the tables
