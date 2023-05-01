@@ -54,3 +54,159 @@
 2023/04/28 16:00:16 [DEBUG] Successfully created the tables
 2023/04/28 16:00:16 table user already exists
 2023/04/28 16:00:16 [DEBUG] Successfully created the tables
+2023/04/28 17:31:06 [DEBUG] Successfully Initiated the Loger
+2023/04/28 17:31:06 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 17:31:06 table user already exists
+2023/04/28 17:31:06 [DEBUG] Successfully created the tables
+2023/04/28 17:31:06 table user already exists
+2023/04/28 17:31:06 [DEBUG] Successfully created the tables
+2023/04/28 17:33:31 [DEBUG] Successfully Initiated the Loger
+2023/04/28 17:33:31 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 17:33:31 table user already exists
+2023/04/28 17:33:31 [DEBUG] Successfully created the tables
+2023/04/28 17:33:31 table user already exists
+2023/04/28 17:33:31 [DEBUG] Successfully created the tables
+2023/04/28 17:36:29 [DEBUG] Successfully Initiated the Loger
+2023/04/28 17:36:29 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 17:36:29 table user already exists
+2023/04/28 17:36:29 [DEBUG] Successfully created the tables
+2023/04/28 17:36:29 table user already exists
+2023/04/28 17:36:29 [DEBUG] Successfully created the tables
+2023/04/28 17:37:20 [DEBUG] Successfully Initiated the Loger
+2023/04/28 17:37:20 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 17:37:20 table user already exists
+2023/04/28 17:37:20 [DEBUG] Successfully created the tables
+2023/04/28 17:37:20 table user already exists
+2023/04/28 17:37:20 [DEBUG] Successfully created the tables
+2023/04/28 18:21:40 [DEBUG] Successfully Initiated the Loger
+2023/04/28 18:21:40 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 18:21:40 table user already exists
+2023/04/28 18:21:40 [DEBUG] Successfully created the tables
+2023/04/28 18:21:40 table user already exists
+2023/04/28 18:21:40 [DEBUG] Successfully created the tables
+2023/04/28 18:25:58 [DEBUG] Successfully Initiated the Loger
+2023/04/28 18:25:58 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 18:25:58 table user already exists
+2023/04/28 18:25:58 [DEBUG] Successfully created the tables
+2023/04/28 18:25:58 table user already exists
+2023/04/28 18:25:58 [DEBUG] Successfully created the tables
+2023/04/28 18:26:32 [DEBUG] Successfully Initiated the Loger
+2023/04/28 18:26:32 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 18:26:32 table user already exists
+2023/04/28 18:26:32 [DEBUG] Successfully created the tables
+2023/04/28 18:26:32 table user already exists
+2023/04/28 18:26:32 [DEBUG] Successfully created the tables
+2023/04/28 18:27:45 [DEBUG] Successfully Initiated the Loger
+2023/04/28 18:27:45 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 18:27:45 table user already exists
+2023/04/28 18:27:45 [DEBUG] Successfully created the tables
+2023/04/28 18:27:45 table user already exists
+2023/04/28 18:27:45 [DEBUG] Successfully created the tables
+2023/04/28 18:34:24 [DEBUG] Successfully Initiated the Loger
+2023/04/28 18:34:24 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 18:34:24 table user already exists
+2023/04/28 18:34:24 [DEBUG] Successfully created the tables
+2023/04/28 18:34:24 table user already exists
+2023/04/28 18:34:24 [DEBUG] Successfully created the tables
+2023/04/28 18:38:03 [DEBUG] Successfully Initiated the Loger
+2023/04/28 18:38:03 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 18:38:03 table user already exists
+2023/04/28 18:38:03 [DEBUG] Successfully created the tables
+2023/04/28 18:38:03 table user already exists
+2023/04/28 18:38:03 [DEBUG] Successfully created the tables
+2023/04/28 18:38:17 [DEBUG] Successfully Initiated the Loger
+2023/04/28 18:38:17 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 18:38:17 table user already exists
+2023/04/28 18:38:17 [DEBUG] Successfully created the tables
+2023/04/28 18:38:17 table user already exists
+2023/04/28 18:38:17 [DEBUG] Successfully created the tables
+2023/04/28 18:39:15 [DEBUG] Successfully Initiated the Loger
+2023/04/28 18:39:15 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 18:39:15 table user already exists
+2023/04/28 18:39:15 [DEBUG] Successfully created the tables
+2023/04/28 18:39:15 table user already exists
+2023/04/28 18:39:15 [DEBUG] Successfully created the tables
+2023/04/28 18:55:23 [DEBUG] Successfully Initiated the Loger
+2023/04/28 18:55:23 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 18:55:23 table user already exists
+2023/04/28 18:55:23 [DEBUG] Successfully created the tables
+2023/04/28 18:55:23 table user already exists
+2023/04/28 18:55:23 [DEBUG] Successfully created the tables
+2023/04/28 18:55:34 [DEBUG] Successfully Initiated the Loger
+2023/04/28 18:55:34 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 18:55:34 table user already exists
+2023/04/28 18:55:34 [DEBUG] Successfully created the tables
+2023/04/28 18:55:34 table user already exists
+2023/04/28 18:55:34 [DEBUG] Successfully created the tables
+2023/04/28 18:56:54 [DEBUG] Successfully Initiated the Loger
+2023/04/28 18:56:54 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 18:56:54 table user already exists
+2023/04/28 18:56:54 [DEBUG] Successfully created the tables
+2023/04/28 18:56:54 table user already exists
+2023/04/28 18:56:54 [DEBUG] Successfully created the tables
+2023/04/28 19:12:14 [DEBUG] Successfully Initiated the Loger
+2023/04/28 19:12:14 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 19:12:14 table user already exists
+2023/04/28 19:12:14 [DEBUG] Successfully created the tables
+2023/04/28 19:12:14 table user already exists
+2023/04/28 19:12:14 [DEBUG] Successfully created the tables
+2023/04/28 19:12:39 [DEBUG] Successfully Initiated the Loger
+2023/04/28 19:12:39 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 19:12:39 table user already exists
+2023/04/28 19:12:39 [DEBUG] Successfully created the tables
+2023/04/28 19:12:39 table user already exists
+2023/04/28 19:12:39 [DEBUG] Successfully created the tables
+2023/04/28 19:14:11 [DEBUG] Successfully Initiated the Loger
+2023/04/28 19:14:11 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 19:14:11 table user already exists
+2023/04/28 19:14:11 [DEBUG] Successfully created the tables
+2023/04/28 19:14:11 table user already exists
+2023/04/28 19:14:11 [DEBUG] Successfully created the tables
+2023/04/28 19:15:04 [DEBUG] Successfully Initiated the Loger
+2023/04/28 19:15:04 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 19:15:04 table user already exists
+2023/04/28 19:15:04 [DEBUG] Successfully created the tables
+2023/04/28 19:15:04 table user already exists
+2023/04/28 19:15:04 [DEBUG] Successfully created the tables
+2023/04/28 19:17:18 [DEBUG] Successfully Initiated the Loger
+2023/04/28 19:17:18 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 19:17:18 table user already exists
+2023/04/28 19:17:18 [DEBUG] Successfully created the tables
+2023/04/28 19:17:18 table user already exists
+2023/04/28 19:17:18 [DEBUG] Successfully created the tables
+2023/04/28 19:26:09 [DEBUG] Successfully Initiated the Loger
+2023/04/28 19:26:09 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 19:26:09 table user already exists
+2023/04/28 19:26:09 [DEBUG] Successfully created the tables
+2023/04/28 19:26:09 table user already exists
+2023/04/28 19:26:09 [DEBUG] Successfully created the tables
+2023/04/28 19:27:27 [DEBUG] Successfully Initiated the Loger
+2023/04/28 19:27:27 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 19:27:27 table user already exists
+2023/04/28 19:27:27 [DEBUG] Successfully created the tables
+2023/04/28 19:27:27 table user already exists
+2023/04/28 19:27:27 [DEBUG] Successfully created the tables
+2023/04/28 19:32:03 [DEBUG] Successfully Initiated the Loger
+2023/04/28 19:32:03 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 19:32:03 table user already exists
+2023/04/28 19:32:03 [DEBUG] Successfully created the tables
+2023/04/28 19:32:03 table user already exists
+2023/04/28 19:32:03 [DEBUG] Successfully created the tables
+2023/04/28 19:35:36 [DEBUG] Successfully Initiated the Loger
+2023/04/28 19:35:36 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 19:35:36 table user already exists
+2023/04/28 19:35:36 [DEBUG] Successfully created the tables
+2023/04/28 19:35:36 table user already exists
+2023/04/28 19:35:36 [DEBUG] Successfully created the tables
+2023/04/28 19:47:44 [DEBUG] Successfully Initiated the Loger
+2023/04/28 19:47:44 [DEBUG] Successfully Initiated the Data Base
+2023/04/28 19:47:44 table user already exists
+2023/04/28 19:47:44 [DEBUG] Successfully created the tables
+2023/04/28 19:47:44 table user already exists
+2023/04/28 19:47:44 [DEBUG] Successfully created the tables
+2023/05/01 14:53:39 [DEBUG] Successfully Initiated the Loger
+2023/05/01 14:53:39 [DEBUG] Successfully Initiated the Data Base
+2023/05/01 14:53:39 table user already exists
+2023/05/01 14:53:39 [DEBUG] Successfully created the tables
+2023/05/01 14:53:39 table user already exists
+2023/05/01 14:53:39 [DEBUG] Successfully created the tables

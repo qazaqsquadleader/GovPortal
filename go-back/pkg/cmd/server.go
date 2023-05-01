@@ -7,6 +7,7 @@ import (
 	"log"
 
 	"github.com/gin-gonic/gin"
+	gindump "github.com/tpkeeper/gin-dump"
 )
 
 func Run() error {
@@ -33,13 +34,16 @@ func Run() error {
 
 	router := gin.New()
 
-	router.Use(gin.Recovery() /*middlewares.BasicAuth()*/ /*gindump.Dump()*/)
+	router.Use(gin.Recovery() /*middlewares.BasicAuth()*/, gindump.Dump())
 
-	router.GET("/", handlers.MainPage)
+	// router.GET("/", handlers.MainPage)
+	// router.OPTIONS("/", handlers.MainPage)
+	router.Any("/", handlers.MainPage)
+	// router.POST("/", handlers.MainPagePOST)
 
-	router.POST("/sign-up", handlers.SignUp)
+	router.Any("/sign-up", handlers.SignUp)
 
-	router.POST("/sign-in", handlers.SignIn)
+	router.Any("/sign-in", handlers.SignIn)
 
 	router.Run(":8080")
 	defer db.Close()

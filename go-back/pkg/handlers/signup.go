@@ -24,6 +24,10 @@ func NewAuthSQL(db *sql.DB) *AuthSQL {
 }
 
 func SignUp(c *gin.Context) {
+	if c.Request.Method != http.MethodPost {
+		c.JSON(http.StatusMethodNotAllowed, c)
+		return
+	}
 	var newUser models.User
 	if err := c.ShouldBindJSON(newUser); err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": "Internal Server Error"})
