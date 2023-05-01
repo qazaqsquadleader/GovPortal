@@ -11,5 +11,4 @@ func Profile(c *gin.Context) {
 		c.JSON(http.StatusMethodNotAllowed, c)
 		return
 	}
-	CheckUserByToken(c.Request.Cookie("token"))
 }
