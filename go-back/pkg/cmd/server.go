@@ -45,6 +45,8 @@ func Run() error {
 
 	router.Any("/sign-in", handlers.SignIn)
 
+	router.Any("/home/profile", handlers.Profile)
+
 	router.Run(":8080")
 	defer db.Close()
 	return nil

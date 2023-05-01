@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	"errors"
 	"govportal/models"
+	"time"
 )
 
 func NewAuthSQL(db *sql.DB) *AuthSQL {
@@ -40,5 +41,24 @@ func (a *AuthSQL) CheckUser(user models.User) (models.User, error) {
 	if err := row.Scan(&fulUser.UserId, &fulUser.Username, &fulUser.Password, &fulUser.Email); err != nil {
 		return fulUser, err
 	}
+
 	return fulUser, nil
+}
+
+func (a *AuthSQL) CheckUserByToken(token string) (models.User, error) {
+	var fullUser models.User
+	var id int
+	var expiresAt string
+	query := `SELECT userId,expiresAt FROM user_sessions WHERE token=$1`
+	err := a.db.QueryRow(query, token).Scan(&id, &expiresAt)
+	if err != nil {
+		return fullUser, err
+	}
+	query1 := `SELECT userId, username, email FROM user WHERE userId=?`
+	row := a.db.QueryRow(query1, id)
+	if err := row.Scan(&fullUser.UserId, &fullUser.Username, &fullUser.Email); err != nil {
+		return fullUser, err
+	}
+	fullUser.TokenDuration, _ = time.Parse("01-02-2006 15:04:05", expiresAt)
+	return fullUser, nil
 }
