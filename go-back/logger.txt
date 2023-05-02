@@ -298,3 +298,15 @@
 2023/05/02 18:52:59 [DEBUG] Successfully Initiated the Data Base
 2023/05/02 18:52:59 [DEBUG] Successfully created the tables
 2023/05/02 18:52:59 [DEBUG] Successfully created the tables
+2023/05/02 18:55:08 [DEBUG] Successfully Initiated the Loger
+2023/05/02 18:55:08 [DEBUG] Successfully Initiated the Data Base
+2023/05/02 18:55:08 [DEBUG] Successfully created the tables
+2023/05/02 18:55:08 [DEBUG] Successfully created the tables
+2023/05/02 19:02:13 [DEBUG] Successfully Initiated the Loger
+2023/05/02 19:02:13 [DEBUG] Successfully Initiated the Data Base
+2023/05/02 19:02:13 [DEBUG] Successfully created the tables
+2023/05/02 19:02:13 [DEBUG] Successfully created the tables
+2023/05/02 19:03:42 [DEBUG] Successfully Initiated the Loger
+2023/05/02 19:03:42 [DEBUG] Successfully Initiated the Data Base
+2023/05/02 19:03:42 [DEBUG] Successfully created the tables
+2023/05/02 19:03:42 [DEBUG] Successfully created the tables

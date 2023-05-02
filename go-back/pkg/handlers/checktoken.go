@@ -8,7 +8,7 @@ import (
 
 func CheckToken(c *gin.Context) {
 	if c.Request.Method != http.MethodGet {
-		c.JSON(http.StatusMethodNotAllowed, c)
+		c.JSON(http.StatusMethodNotAllowed, gin.H{"error": "Failed to method"})
 		return
 	}
 	// logic

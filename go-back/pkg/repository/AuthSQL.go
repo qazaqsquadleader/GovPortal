@@ -24,6 +24,7 @@ type IAuthSQL interface {
 	DeleteTokenById(int) error
 	CheckUserByToken(string) (models.User, error)
 	CheckUserByName(models.User) error
+	GetUserInfo(int) (models.User, error)
 }
 
 func (a *AuthSQL) CreateUser(User models.User) error {
@@ -117,5 +118,16 @@ func (a *AuthSQL) GetUserByUsername(username string) (models.User, error) {
 		return models.User{}, err
 	}
 
+	return fullUser, nil
+}
+
+func (a *AuthSQL) GetUserInfo(UserId int) (models.User, error) {
+	query := `SELECT * FROM user WHERE username=$1`
+	row := a.db.QueryRow(query, UserId)
+	var fullUser models.User
+	err := row.Scan(&fullUser.UserId, &fullUser.Username, &fullUser.Password, &fullUser.Email)
+	if err != nil {
+		return models.User{}, err
+	}
 	return fullUser, nil
 }

@@ -61,3 +61,7 @@ func (a *AuthServiceStruct) GetUserByToken(token string) (models.User, error) {
 // 	// }
 // 	return nil
 // }
+
+func (a *AuthServiceStruct) PersonalInfo(userId int) (models.User, error) {
+	return a.repo.GetUserInfo(userId)
+}
