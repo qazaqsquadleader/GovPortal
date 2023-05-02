@@ -13,9 +13,11 @@ CREATE TABLE IF NOT EXISTS userSessions(
     FOREIGN KEY (userid) REFERENCES user(userId)
 );
 
-CREATE TABLE IF NOT EXISTS studentList{
-    StudentId int PRIMARY KEY AUTOINCREMENT,
-    StudentFirstName text,
-    StudentLastName text,
-    StudentTrainingCourse text
-};
+CREATE TABLE IF NOT EXISTS studentList(
+    studentId INTEGER PRIMARY KEY AUTOINCREMENT,
+    studentFirstName TEXT,
+    studentLastName TEXT,
+    studentTrainingCourse TEXT,
+    FOREIGN KEY (studentId) REFERENCES user(userId)
+
+);

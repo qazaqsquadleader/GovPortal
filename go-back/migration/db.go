@@ -3,6 +3,7 @@ package migration
 import (
 	"database/sql"
 	"encoding/json"
+	"fmt"
 	"govportal/pkg/logger"
 	"io/ioutil"
 	"log"
@@ -43,6 +44,7 @@ func (c *ConfigDb) CreateTables(db *sql.DB, l *logger.Logger) {
 		log.Println(err.Error())
 		l.Fatal(err.Error())
 	}
+	fmt.Println(string(file))
 	if _, err := db.Exec(string(file)); err != nil {
 		log.Println(err.Error())
 		l.Fatal(err.Error())

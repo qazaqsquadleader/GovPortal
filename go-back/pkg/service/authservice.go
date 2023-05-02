@@ -32,32 +32,32 @@ func (a *AuthServiceStruct) GetUserByToken(token string) (models.User, error) {
 	return user, nil
 }
 
-func (a *AuthServiceStruct) CreateUser(user models.User) error {
-	// if err := isValidEmail(user.Email); err != nil {
-	// 	return project_error.NewUserError(err.Error(), http.StatusBadRequest)
-	// }
-	// if err := isValidUsername(user.Username); err != nil {
-	// 	return project_error.NewUserError(err.Error(), http.StatusBadRequest)
-	// }
-	// if err := isValidPassword(user.Password); err != nil {
-	// 	return project_error.NewUserError(err.Error(), http.StatusBadRequest)
-	// }
-	// _, err := a.repo.GetUserByUsername(user.Username)
-	// if err == nil {
-	// 	return project_error.NewUserError("username already exists", http.StatusConflict)
-	// } else if !errors.Is(err, sql.ErrNoRows) {
-	// 	return project_error.NewServerError(err.Error())
-	// }
+// func (a *AuthServiceStruct) CreateUser(user models.User) error {
+// 	// if err := isValidEmail(user.Email); err != nil {
+// 	// 	return project_error.NewUserError(err.Error(), http.StatusBadRequest)
+// 	// }
+// 	// if err := isValidUsername(user.Username); err != nil {
+// 	// 	return project_error.NewUserError(err.Error(), http.StatusBadRequest)
+// 	// }
+// 	// if err := isValidPassword(user.Password); err != nil {
+// 	// 	return project_error.NewUserError(err.Error(), http.StatusBadRequest)
+// 	// }
+// 	// _, err := a.repo.GetUserByUsername(user.Username)
+// 	// if err == nil {
+// 	// 	return project_error.NewUserError("username already exists", http.StatusConflict)
+// 	// } else if !errors.Is(err, sql.ErrNoRows) {
+// 	// 	return project_error.NewServerError(err.Error())
+// 	// }
 
-	// _, err = a.repo.GetUserByEmail(user.Email)
-	// if err == nil {
-	// 	return project_error.NewUserError("email already exists", http.StatusConflict)
-	// } else if !errors.Is(err, sql.ErrNoRows) {
-	// 	return project_error.NewServerError(err.Error())
-	// }
+// 	// _, err = a.repo.GetUserByEmail(user.Email)
+// 	// if err == nil {
+// 	// 	return project_error.NewUserError("email already exists", http.StatusConflict)
+// 	// } else if !errors.Is(err, sql.ErrNoRows) {
+// 	// 	return project_error.NewServerError(err.Error())
+// 	// }
 
-	// if err := a.repo.CreateUser(user); err != nil {
-	// 	return project_error.NewServerError(err.Error())
-	// }
-	return nil
-}
+// 	// if err := a.repo.CreateUser(user); err != nil {
+// 	// 	return project_error.NewServerError(err.Error())
+// 	// }
+// 	return nil
+// }
