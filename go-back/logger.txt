@@ -216,3 +216,39 @@
 2023/05/02 18:00:25 [DEBUG] Successfully created the tables
 2023/05/02 18:00:25 table user already exists
 2023/05/02 18:00:25 [DEBUG] Successfully created the tables
+2023/05/02 18:28:45 [DEBUG] Successfully Initiated the Loger
+2023/05/02 18:28:45 [DEBUG] Successfully Initiated the Data Base
+2023/05/02 18:28:45 table user already exists
+2023/05/02 18:28:45 [DEBUG] Successfully created the tables
+2023/05/02 18:28:45 table user already exists
+2023/05/02 18:28:45 [DEBUG] Successfully created the tables
+2023/05/02 18:37:09 [DEBUG] Successfully Initiated the Loger
+2023/05/02 18:37:09 [DEBUG] Successfully Initiated the Data Base
+2023/05/02 18:37:09 table user already exists
+2023/05/02 18:37:09 [DEBUG] Successfully created the tables
+2023/05/02 18:37:09 table user already exists
+2023/05/02 18:37:09 [DEBUG] Successfully created the tables
+2023/05/02 18:43:24 [DEBUG] Successfully Initiated the Loger
+2023/05/02 18:43:24 [DEBUG] Successfully Initiated the Data Base
+2023/05/02 18:43:24 unrecognized token: "{"
+2023/05/02 18:43:24 [DEBUG] Successfully created the tables
+2023/05/02 18:43:24 unrecognized token: "{"
+2023/05/02 18:43:24 [DEBUG] Successfully created the tables
+2023/05/02 18:43:45 [DEBUG] Successfully Initiated the Loger
+2023/05/02 18:43:45 [DEBUG] Successfully Initiated the Data Base
+2023/05/02 18:43:45 unrecognized token: "{"
+2023/05/02 18:43:45 [DEBUG] Successfully created the tables
+2023/05/02 18:43:45 unrecognized token: "{"
+2023/05/02 18:43:45 [DEBUG] Successfully created the tables
+2023/05/02 18:44:45 [DEBUG] Successfully Initiated the Loger
+2023/05/02 18:44:45 [DEBUG] Successfully Initiated the Data Base
+2023/05/02 18:44:45 unrecognized token: "{"
+2023/05/02 18:44:45 [DEBUG] Successfully created the tables
+2023/05/02 18:44:45 unrecognized token: "{"
+2023/05/02 18:44:45 [DEBUG] Successfully created the tables
+2023/05/02 18:46:03 [DEBUG] Successfully Initiated the Loger
+2023/05/02 18:46:03 [DEBUG] Successfully Initiated the Data Base
+2023/05/02 18:46:03 unrecognized token: "{"
+2023/05/02 18:46:03 [DEBUG] Successfully created the tables
+2023/05/02 18:46:03 unrecognized token: "{"
+2023/05/02 18:46:03 [DEBUG] Successfully created the tables

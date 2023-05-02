@@ -10,9 +10,17 @@ type AuthServiceStruct struct {
 }
 
 type AuthService interface {
-	CreateUser(models.User, error)
-	CheckUserByToken(string) (models.User, error)
+	CreateUser(models.User) error
+	GetUserByToken(string) (models.User, error)
 	CheckUser(models.User) (models.User, error)
+	DeleteToken(string) error
+	PersonalInfo(int) (models.User, error)
+}
+
+func NewAuthService(repoAuth repository.IAuthSQL) AuthService {
+	return &AuthServiceStruct{
+		repoAuth,
+	}
 }
 
 func (a *AuthServiceStruct) GetUserByToken(token string) (models.User, error) {
@@ -24,26 +32,32 @@ func (a *AuthServiceStruct) GetUserByToken(token string) (models.User, error) {
 	return user, nil
 }
 
-func CheckUser(user models.User) (models.User, error) {
+func (a *AuthServiceStruct) CreateUser(user models.User) error {
+	// if err := isValidEmail(user.Email); err != nil {
+	// 	return project_error.NewUserError(err.Error(), http.StatusBadRequest)
+	// }
 	// if err := isValidUsername(user.Username); err != nil {
-	// 	return user, errormsg.NewUserError("invalid username", http.StatusBadRequest)
+	// 	return project_error.NewUserError(err.Error(), http.StatusBadRequest)
 	// }
 	// if err := isValidPassword(user.Password); err != nil {
-	// 	return user, errormsg.NewUserError("invalid password", http.StatusBadRequest)
+	// 	return project_error.NewUserError(err.Error(), http.StatusBadRequest)
 	// }
-	// user, err := a.repository.CheckUser(user)
-	// if err != nil {
-	// 	return user, errormsg.NewUserError("User does not exist", http.StatusUnauthorized)
+	// _, err := a.repo.GetUserByUsername(user.Username)
+	// if err == nil {
+	// 	return project_error.NewUserError("username already exists", http.StatusConflict)
+	// } else if !errors.Is(err, sql.ErrNoRows) {
+	// 	return project_error.NewServerError(err.Error())
 	// }
-	// token, err := uuid.NewV4()
-	// if err != nil {
-	// 	return user, errormsg.NewInternalError("error generating token")
+
+	// _, err = a.repo.GetUserByEmail(user.Email)
+	// if err == nil {
+	// 	return project_error.NewUserError("email already exists", http.StatusConflict)
+	// } else if !errors.Is(err, sql.ErrNoRows) {
+	// 	return project_error.NewServerError(err.Error())
 	// }
-	// user.Token = token.String()
-	// user.TokenDuration = time.Now().Add(72 * time.Hour)
-	// a.repo.DeleteTokenById(user.ID)
-	// if err := a.repo.SaveToken(user); err != nil {
-	// 	return user, errormsg.NewInternalError("error saving token to database")
+
+	// if err := a.repo.CreateUser(user); err != nil {
+	// 	return project_error.NewServerError(err.Error())
 	// }
-	return user, nil
+	return nil
 }
