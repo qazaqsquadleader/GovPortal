@@ -2,7 +2,6 @@ package repository
 
 import (
 	"database/sql"
-	"errors"
 	"govportal/models"
 	"time"
 )
@@ -20,29 +19,32 @@ type AuthSQL struct {
 type IAuthSQL interface {
 	CreateUser(models.User) error
 	CheckUser(models.User) (models.User, error)
+	SaveToken(models.User) error
+	DeleteToken(string) error
+	DeleteTokenById(int) error
 	CheckUserByToken(string) (models.User, error)
+	CheckUserByName(models.User) error
 }
 
-func (a *AuthSQL) CreateUser(user models.User) error {
+func (a *AuthSQL) CreateUser(User models.User) error {
 	stmt, err := a.db.Prepare("INSERT INTO User(username, password,email) values(?,?,?)")
 	if err != nil {
 		return err
 	}
-	if _, err := stmt.Exec(user.Username, user.Password, user.Email); err != nil {
-		return errors.New("")
+	if _, err := stmt.Exec(User.Username, User.Password, User.Email); err != nil {
+		return err
 	}
 	return nil
 }
 
-func (a *AuthSQL) CheckUser(user models.User) (models.User, error) {
-	var fulUser models.User
+func (a *AuthSQL) CheckUser(User models.User) (models.User, error) {
+	var fullUser models.User
 	query := `SELECT * FROM user WHERE username=$1 and password=$2`
-	row := a.db.QueryRow(query, user.Username, user.Password)
-	if err := row.Scan(&fulUser.UserId, &fulUser.Username, &fulUser.Password, &fulUser.Email); err != nil {
-		return fulUser, err
+	row := a.db.QueryRow(query, User.Username, User.Password)
+	if err := row.Scan(&fullUser.UserId, &fullUser.Username, &fullUser.Password, &fullUser.Email); err != nil {
+		return fullUser, err
 	}
-
-	return fulUser, nil
+	return fullUser, nil
 }
 
 func (a *AuthSQL) CheckUserByToken(token string) (models.User, error) {
@@ -60,5 +62,60 @@ func (a *AuthSQL) CheckUserByToken(token string) (models.User, error) {
 		return fullUser, err
 	}
 	fullUser.TokenDuration, _ = time.Parse("01-02-2006 15:04:05", expiresAt)
+	return fullUser, nil
+}
+
+func (a *AuthSQL) SaveToken(User models.User) error {
+	stmt, err := a.db.Prepare(`INSERT INTO user_sessions(token, expiresAt,userId) values(?,?,?)`)
+	if err != nil {
+		return err
+	}
+	if _, err := stmt.Exec(User.Token, User.TokenDuration, User.UserId); err != nil {
+		return err
+	}
+	return nil
+}
+
+func (a *AuthSQL) DeleteToken(token string) error {
+	query := `DELETE FROM userSessions WHERE token=$1`
+	_, err := a.db.Exec(query, token)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+func (a *AuthSQL) DeleteTokenById(id int) error {
+	query := `DELETE FROM userSessions WHERE userId=$1`
+	_, err := a.db.Exec(query, id)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
+func (a *AuthSQL) GetUserByEmail(Email string) (models.User, error) {
+	query := "SELECT * FROM user WHERE Email = $1"
+	row := a.db.QueryRow(query, Email)
+
+	var fullUser models.User
+	err := row.Scan(&fullUser.UserId, &fullUser.Username, &fullUser.Password, &fullUser.Email)
+	if err != nil {
+		return models.User{}, err
+	}
+
+	return fullUser, nil
+}
+
+func (a *AuthSQL) GetUserByUsername(username string) (models.User, error) {
+	query := "SELECT * FROM user WHERE username = $1"
+	row := a.db.QueryRow(query, username)
+
+	var fullUser models.User
+	err := row.Scan(&fullUser.UserId, &fullUser.Username, &fullUser.Password, &fullUser.Email)
+	if err != nil {
+		return models.User{}, err
+	}
+
 	return fullUser, nil
 }

@@ -210,3 +210,9 @@
 2023/05/01 14:53:39 [DEBUG] Successfully created the tables
 2023/05/01 14:53:39 table user already exists
 2023/05/01 14:53:39 [DEBUG] Successfully created the tables
+2023/05/02 18:00:25 [DEBUG] Successfully Initiated the Loger
+2023/05/02 18:00:25 [DEBUG] Successfully Initiated the Data Base
+2023/05/02 18:00:25 table user already exists
+2023/05/02 18:00:25 [DEBUG] Successfully created the tables
+2023/05/02 18:00:25 table user already exists
+2023/05/02 18:00:25 [DEBUG] Successfully created the tables
