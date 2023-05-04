@@ -17,11 +17,11 @@ type AuthService interface {
 	PersonalInfo(int) (models.User, error)
 }
 
-func NewAuthService(repoAuth repository.IAuthSQL) AuthService {
-	return &AuthServiceStruct{
-		repoAuth,
-	}
-}
+// func NewAuthService(repoAuth repository.IAuthSQL) AuthService {
+// 	return &AuthServiceStruct{
+// 		repoAuth,
+// 	}
+// }
 
 func (a *AuthServiceStruct) GetUserByToken(token string) (models.User, error) {
 	var user models.User

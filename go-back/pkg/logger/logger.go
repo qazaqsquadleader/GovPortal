@@ -22,7 +22,7 @@ func NewFileLogger() (*Logger, error) {
 	return &Logger{file}, nil
 }
 
-func (l *Logger) Debug(message string) {
+func (l *Logger) Debug(message ...string) {
 	msg := fmt.Sprintf("[DEBUG] %s\n", message)
 	output(msg)
 }
